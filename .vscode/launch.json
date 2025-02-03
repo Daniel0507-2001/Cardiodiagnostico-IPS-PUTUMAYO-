@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Launch Opera GX",
+        "type": "chrome",
+        "request": "launch",
+        "url": "http://localhost:5500", // Ajusta el puerto si usas Live Server u otro
+        "webRoot": "${workspaceFolder}",
+        "runtimeExecutable": "C:\\Users\\Daniel Morales\\AppData\\Local\\Programs\\Opera GX\\opera.exe"
+      },
+      {
+        "name": "Attach to Opera GX",
+        "type": "chrome",
+        "request": "attach",
+        "port": 9222,
+        "webRoot": "${workspaceFolder}"
+      }
+    ]
+  }
